@@ -113,6 +113,7 @@
 	* [. 删除iOS项目中未使用的图片](content/94/content.md)
 	* [. 使用 YYFPSLabel 快速检测页面滑动的流畅度](content/120/content.md)
 	* [. iOS App 启动时间测量](content/50/content.md)
+	* [iOS 中的 GZIP 压缩](content/3/content.md)
 
 * 工程
 	* [. 利用 Git-hook 自动配置不同仓库的用户信息](content/153/content.md)
@@ -128,7 +129,6 @@
 	* [1. 一入IAP深似海](content/43/content.md)
 	* [2. 一入IAP深似海第二弹](content/5/content.md)
 	* [3. 关于 IAP 丢单的处理](content/67/content.md)
-	* [iOS 中的 GZIP 压缩](content/3/content.md)
 	* [SecRandomCopyBytes 生成伪随机数](content/8/content.md)
 	* [忘记AppleID账号安全问题的解决办法](content/11/content.md)
 	* [句子拆分](content/17/content.md)
