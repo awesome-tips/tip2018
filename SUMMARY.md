@@ -125,6 +125,7 @@
 
 * 安全/越狱
 	* [. 谈一谈iOS平台跨域访问漏洞](content/158/content.md)
+	* [. “偷窥”第三方APP头文件](content/151/content.md)
 
 * 其它
 	* [1. 一入IAP深似海](content/43/content.md)
@@ -185,7 +186,7 @@
 	* [. 使用 Apple Configuration 配置自动加入 Wi-Fi](content/148/content.md)
 	* [. 断案高手之otool](content/149/content.md)
 	* [. iOS9 以后 openURL 和 canOpenURL 使用限制的小误区](content/150/content.md)
-	* [. “偷窥”第三方APP头文件](content/151/content.md)
+
 	
 * 未添加
 	* 22
