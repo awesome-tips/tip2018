@@ -51,6 +51,8 @@
 	* [. iOS 金额字符串格式化显示的方法](content/44/content.md)
 	* [. 几个第三方框架关于线程锁的封装小技巧](content/45/content.md)
 	* [. 换一种 Hook 的姿势](content/156/content.md)
+	* [. 三个打印类信息的私有方法](content/155/content.md)
+
 
 * UI
 	* [1. 为 UIView “截屏”](content/9/content.md)
@@ -186,9 +188,6 @@
 	* [. 断案高手之otool](content/149/content.md)
 	* [. iOS9 以后 openURL 和 canOpenURL 使用限制的小误区](content/150/content.md)
 	* [. “偷窥”第三方APP头文件](content/151/content.md)
-	* [. 三个打印类信息的私有方法](content/155/content.md)
-
-
 	
 * 未添加
 	* 22
