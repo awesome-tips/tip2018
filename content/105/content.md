@@ -20,7 +20,7 @@ Apache 开启后，站点的目录在 `/Library/WebServer/Documents` 下，我�
 
 设置完后，当启动 APP ，加载 WKWebView 后即可看到 `index.html` 这个页面。这时即可通过断点进行调试，当然可以查看当前的 HTML 代码，JS 代码，网络情况等。具体如下图所示：
 
-![](./1.jpg)
+![](./1.png)
 
-![](./2.jpg)
+![](./2.png)
 
