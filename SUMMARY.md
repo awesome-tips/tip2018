@@ -1,26 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* Xcode
-	* [1. 使用 Named UIColor](content/1/content.md)
-	* [2. Xcode 10 / iOS 12 获取 WiFi 信息](content/6/content.md)
-	* [3. Xcode 工程添加 “动态” Framework 的几种方式](content/13/content.md)
-	* [4. Xcode 的 Build Settings 选中 Levels 时不同列的含义](content/19/content.md)
-	* [5. 关于 Assets 中图片的 Slicing 功能](content/30/content.md)
-	* [6. Xcode 调试技巧之 attach to process by PID or name](content/32/content.md)
-	* [7. 关于 Xcode Archive 后 App 出现在 Other Items 分组里的解决办法](content/49/content.md)
-	* [8. 配置 xcodebuild 命令打包支持 Bitcode](content/72/content.md)
-	* [9. Xcode 断点调试时打印变量值报错的问题（编译优化相关）](content/78/content.md)
-	* [10. 推荐几个高频使用的 Xcode 小技巧](content/86/content.md)
-	* [11. Xcode 设置代码只在 Debug 下起效的几种方式](content/88/content.md)
-	* [12. Extract Function/Extract Method](content/96/content.md)
-	* [13. Fix All issue](content/111/content.md)
-	* [14. Xcode 9 中快速定位目标控制器](content/130/content.md)
-	* [15. 关于 Xcode console 输出的 UIImage 警告的解决方式](content/133/content.md)
-	* [16. 使用 Toolchains 在 Xcode 中切换 Swift 版本](content/136/content.md)
-	* [17. 打包时 Xcode 无法及时更新 Provisioning Profile 的解决办法](content/152/content.md)
-	* [18. 解决修改 xcconfig 配置版本号和 build 号不生效的问题](content/157/content.md)
-	* [19. 解决Xcode真机无法联调的野路子](content/168/content.md)
 
 * 语言
 	* [1. 使用 CaseIterable 获取枚举的所有 case](content/4/content.md)
@@ -52,6 +32,27 @@
 	* [. 几个第三方框架关于线程锁的封装小技巧](content/45/content.md)
 	* [. 换一种 Hook 的姿势](content/156/content.md)
 	* [. 三个打印类信息的私有方法](content/155/content.md)
+
+* Xcode
+	* [1. 使用 Named UIColor](content/1/content.md)
+	* [2. Xcode 10 / iOS 12 获取 WiFi 信息](content/6/content.md)
+	* [3. Xcode 工程添加 “动态” Framework 的几种方式](content/13/content.md)
+	* [4. Xcode 的 Build Settings 选中 Levels 时不同列的含义](content/19/content.md)
+	* [5. 关于 Assets 中图片的 Slicing 功能](content/30/content.md)
+	* [6. Xcode 调试技巧之 attach to process by PID or name](content/32/content.md)
+	* [7. 关于 Xcode Archive 后 App 出现在 Other Items 分组里的解决办法](content/49/content.md)
+	* [8. 配置 xcodebuild 命令打包支持 Bitcode](content/72/content.md)
+	* [9. Xcode 断点调试时打印变量值报错的问题（编译优化相关）](content/78/content.md)
+	* [10. 推荐几个高频使用的 Xcode 小技巧](content/86/content.md)
+	* [11. Xcode 设置代码只在 Debug 下起效的几种方式](content/88/content.md)
+	* [12. Extract Function/Extract Method](content/96/content.md)
+	* [13. Fix All issue](content/111/content.md)
+	* [14. Xcode 9 中快速定位目标控制器](content/130/content.md)
+	* [15. 关于 Xcode console 输出的 UIImage 警告的解决方式](content/133/content.md)
+	* [16. 使用 Toolchains 在 Xcode 中切换 Swift 版本](content/136/content.md)
+	* [17. 打包时 Xcode 无法及时更新 Provisioning Profile 的解决办法](content/152/content.md)
+	* [18. 解决修改 xcconfig 配置版本号和 build 号不生效的问题](content/157/content.md)
+	* [19. 解决Xcode真机无法联调的野路子](content/168/content.md)
 
 * UI
 	* [1. 为 UIView “截屏”](content/9/content.md)
