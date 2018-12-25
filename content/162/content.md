@@ -8,7 +8,7 @@
 
 思路: 利用 `NSCache`, 以 `stringFormatter+NSLocale` 的 `localeIdentifier` 为 `key` 缓存 `NSDateFormatter`. 当`UIApplicationDidReceiveMemoryWarningNotification` 或 `NSCurrentLocaleDidChangeNotification` 释放 `NSCache` 缓存的对象.
 
-代码参考 `https://github.com/BrooksWon/BTNSDateFormatterFactory/blob/master/BTNSDateFormatterFactory/BTNSDateFormatterFactory.m`,  核心实现代码如下:
+代码参考 [BTNSDateFormatterFactory.m](https://github.com/BrooksWon/BTNSDateFormatterFactory/blob/master/BTNSDateFormatterFactory/BTNSDateFormatterFactory.m),  核心实现代码如下:
 
 ```objc
 - (NSDateFormatter *)dateFormatterWithFormat:(NSString *)format andLocale:(NSLocale *)locale {
