@@ -22,5 +22,5 @@
 
 另外，`FPS` 的值跟机器的处理器性能息息相关，不同的设备的表现往往都不同，因此我们只要能保证 `App` 在低端设备上运行的 `FPS` 为 `50+`，基本就可以认为是流畅的了。
 
-Demo 地址：`https://github.com/kangzubin/XMNetworking/tree/master/Demo`
+Demo 地址：[https://github.com/kangzubin/XMNetworking/tree/master/Demo](https://github.com/kangzubin/XMNetworking/tree/master/Demo)
 

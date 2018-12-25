@@ -109,11 +109,11 @@
 	* [1. iOS 内存泄露工具](content/68/content.md)
 	* [2. 一些 UI 性能优化的 tips](content/79/content.md)
 	* [3. 两种 App 启动连续闪退检测策略](content/82/content.md)
-	* [. WWDC 2018 苹果推荐的大图加载方式](content/83/content.md)
-	* [. 删除iOS项目中未使用的图片](content/94/content.md)
-	* [. 使用 YYFPSLabel 快速检测页面滑动的流畅度](content/120/content.md)
-	* [. iOS App 启动时间测量](content/50/content.md)
-	* [iOS 中的 GZIP 压缩](content/3/content.md)
+	* [4. WWDC 2018 苹果推荐的大图加载方式](content/83/content.md)
+	* [5. 删除iOS项目中未使用的图片](content/94/content.md)
+	* [6. 使用 YYFPSLabel 快速检测页面滑动的流畅度](content/120/content.md)
+	* [7. iOS App 启动时间测量](content/50/content.md)
+	* [8. iOS 中的 GZIP 压缩](content/3/content.md)
 
 * 工程
 	* [. 利用 Git-hook 自动配置不同仓库的用户信息](content/153/content.md)
