@@ -53,7 +53,6 @@
 	* [. 换一种 Hook 的姿势](content/156/content.md)
 	* [. 三个打印类信息的私有方法](content/155/content.md)
 
-
 * UI
 	* [1. 为 UIView “截屏”](content/9/content.md)
 	* [2. 如何使 UIImagePickerController 支持横屏](content/16/content.md)
@@ -126,11 +125,10 @@
 	* [. 谈一谈iOS平台跨域访问漏洞](content/158/content.md)
 
 * 其它
-
+	* [1. 一入IAP深似海](content/43/content.md)
+	* [2. 一入IAP深似海第二弹](content/5/content.md)
+	* [3. 关于 IAP 丢单的处理](content/67/content.md)
 	* [iOS 中的 GZIP 压缩](content/3/content.md)
-	* [一入IAP深似海](content/43/content.md)
-	* [一入IAP深似海第二弹](content/5/content.md)
-	* [. 关于 IAP 丢单的处理](content/67/content.md)
 	* [SecRandomCopyBytes 生成伪随机数](content/8/content.md)
 	* [忘记AppleID账号安全问题的解决办法](content/11/content.md)
 	* [句子拆分](content/17/content.md)
