@@ -50,6 +50,7 @@
 	* [开源库使用的 Clang \_\_attributes\_\_](content/38/content.md)
 	* [. iOS 金额字符串格式化显示的方法](content/44/content.md)
 	* [. 几个第三方框架关于线程锁的封装小技巧](content/45/content.md)
+	* [. 换一种 Hook 的姿势](content/156/content.md)
 
 * UI
 	* [1. 为 UIView “截屏”](content/9/content.md)
@@ -119,6 +120,9 @@
 	* [Diff:/Podfile.lock NO such file or directory](content/2/content.md)
 	* [对于“静态库”和“动态库”的理解总结](content/12/content.md)
 
+* 安全/越狱
+	* [. 谈一谈iOS平台跨域访问漏洞](content/158/content.md)
+
 * 其它
 
 	* [iOS 中的 GZIP 压缩](content/3/content.md)
@@ -183,8 +187,8 @@
 	* [. iOS9 以后 openURL 和 canOpenURL 使用限制的小误区](content/150/content.md)
 	* [. “偷窥”第三方APP头文件](content/151/content.md)
 	* [. 三个打印类信息的私有方法](content/155/content.md)
-	* [. 换一种 Hook 的姿势](content/156/content.md)
-	* [. 谈一谈iOS平台跨域访问漏洞](content/158/content.md)
+
+
 	
 * 未添加
 	* 22
