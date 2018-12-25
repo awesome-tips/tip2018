@@ -4,7 +4,7 @@
 
 当我们要做 App 日志上报时，需要考虑到一种行为：App 在启动时就崩溃闪退了，而且当遇到连续启动闪退（也就是每次打开 App 必崩）时，那几乎是灾难，但更可怕是，如果没有有效的监测手段，我们可能对已发生的这种线上严重问题毫不知情。
 
-WeRead 团队博客的《iOS 启动连续闪退保护方案》 http://wereadteam.github.io/2016/05/23/GYBootingProtection/ 和 MrPeak 老师的《iOS App 连续闪退时如何上报 crash 日志》 http://mrpeak.cn/blog/ios-instacrash-reporting/ 分别介绍了两种简易的如何检测连续闪退的策略，在这里跟大家分享一下。
+WeRead 团队博客的[《iOS 启动连续闪退保护方案》](http://wereadteam.github.io/2016/05/23/GYBootingProtection/) 和 MrPeak 老师的[《iOS App 连续闪退时如何上报 crash 日志》](http://mrpeak.cn/blog/ios-instacrash-reporting/) 分别介绍了两种简易的如何检测连续闪退的策略，在这里跟大家分享一下。
 
 * 计时器方法
 
