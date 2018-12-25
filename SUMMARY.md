@@ -98,6 +98,7 @@
 	* [7. Webview关闭时手动停止音频播放](content/131/content.md)
 	* [8. 让失去焦点的 UIWebView 弹出键盘的方法](content/135/content.md)
 	* [9. 解决 WKWebView 无法处理 URL Scheme 和 App Store 链接的问题](content/164/content.md)
+	* [10. JSON 格式化显示](content/22/content.md)
 
 * 音视频
 	* [. 使用 AVCaptureSession 踩的一个坑](content/144/content.md)
@@ -117,6 +118,9 @@
 	* [8. iOS 中的 GZIP 压缩](content/3/content.md)
 	* [9. 为 Fabric MOD 一个卡顿检测功能](content/23/content.md)
 
+* 调试
+
+
 * 工程
 	* [. 利用 Git-hook 自动配置不同仓库的用户信息](content/153/content.md)
 	* [. 应用 icon 被 Cocoapods “吃掉”的解决方式](content/154/content.md)
@@ -135,7 +139,6 @@
 	* [SecRandomCopyBytes 生成伪随机数](content/8/content.md)
 	* [忘记AppleID账号安全问题的解决办法](content/11/content.md)
 	* [句子拆分](content/17/content.md)
-	* [JSON 格式化显示](content/22/content.md)
 	* [关于定位的一个小知识点](content/24/content.md)
 	* [iOS 获取设备型号最新总结](content/25/content.md)
 	* [iOS App “去评分” 功能的几种实现总结](content/34/content.md)
@@ -187,7 +190,6 @@
 	* [. 使用 Apple Configuration 配置自动加入 Wi-Fi](content/148/content.md)
 	* [. 断案高手之otool](content/149/content.md)
 	* [. iOS9 以后 openURL 和 canOpenURL 使用限制的小误区](content/150/content.md)
-
 	
 * 未添加
 	* 22
