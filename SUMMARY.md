@@ -106,9 +106,9 @@
 	* [使用 Audio Queue 进行流式录音](content/21/content.md)
 
 * 优化
-	* [. iOS 内存泄露工具](content/68/content.md)
-	* [. 一些 UI 性能优化的 tips](content/79/content.md)
-	* [. 两种 App 启动连续闪退检测策略](content/82/content.md)
+	* [1. iOS 内存泄露工具](content/68/content.md)
+	* [2. 一些 UI 性能优化的 tips](content/79/content.md)
+	* [3. 两种 App 启动连续闪退检测策略](content/82/content.md)
 	* [. WWDC 2018 苹果推荐的大图加载方式](content/83/content.md)
 	* [. 删除iOS项目中未使用的图片](content/94/content.md)
 	* [. 使用 YYFPSLabel 快速检测页面滑动的流畅度](content/120/content.md)

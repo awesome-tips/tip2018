@@ -6,7 +6,7 @@
 
 WeRead 团队博客的[《iOS 启动连续闪退保护方案》](http://wereadteam.github.io/2016/05/23/GYBootingProtection/) 和 MrPeak 老师的[《iOS App 连续闪退时如何上报 crash 日志》](http://mrpeak.cn/blog/ios-instacrash-reporting/) 分别介绍了两种简易的如何检测连续闪退的策略，在这里跟大家分享一下。
 
-* 计时器方法
+### 计时器方法
 
 1）App 本地缓存维护一个计数变量，用于表示连续闪退的次数；
 
@@ -24,7 +24,7 @@ WeRead 团队博客的[《iOS 启动连续闪退保护方案》](http://wereadte
 
 这种计数器方法逻辑简单，与原有的代码耦合小。但存在误报可能（用户在启动 App 后又立即 kill 掉，会被误认为是 crash），不过可以通过设置时间阈值或者在 `applicationWillTerminate:` 里标记 App 是被手动 kill 来减少误报。
 
-* 时间数组比对
+### 时间数组比对
 
 我们可以在本地保存一个 App 每次启动时间、闪退时间、手动关闭时间的时间数组，然后在 App 启动时根据分析各个时间戳判断是否存在连续闪退（当闪退时间减去启动时间小于阈值 5 秒时，则认为是启动闪退），具体如下：
 
