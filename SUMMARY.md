@@ -114,6 +114,7 @@
 	* [6. 使用 YYFPSLabel 快速检测页面滑动的流畅度](content/120/content.md)
 	* [7. iOS App 启动时间测量](content/50/content.md)
 	* [8. iOS 中的 GZIP 压缩](content/3/content.md)
+	* [9. 为 Fabric MOD 一个卡顿检测功能](content/23/content.md)
 
 * 工程
 	* [. 利用 Git-hook 自动配置不同仓库的用户信息](content/153/content.md)
@@ -133,7 +134,6 @@
 	* [忘记AppleID账号安全问题的解决办法](content/11/content.md)
 	* [句子拆分](content/17/content.md)
 	* [JSON 格式化显示](content/22/content.md)
-	* [为 Fabric MOD 一个卡顿检测功能](content/23/content.md)
 	* [关于定位的一个小知识点](content/24/content.md)
 	* [iOS 获取设备型号最新总结](content/25/content.md)
 	* [iOS App “去评分” 功能的几种实现总结](content/34/content.md)
