@@ -38,7 +38,6 @@
   * [7. 判断是否在主队列运行](content/95/content.md)
   * [8. 说说 NSTimer 的新 API](content/121/content.md)
 * Xcode
-  * [. Assets的几个方便用法](content/81/content.md)
   * [1. 使用 Named UIColor](content/1/content.md)
   * [2. Xcode 10 / iOS 12 获取 WiFi 信息](content/6/content.md)
   * [3. Xcode 工程添加 “动态” Framework 的几种方式](content/13/content.md)
@@ -58,6 +57,7 @@
   * [17. 打包时 Xcode 无法及时更新 Provisioning Profile 的解决办法](content/152/content.md)
   * [18. 解决修改 xcconfig 配置版本号和 build 号不生效的问题](content/157/content.md)
   * [19. 解决Xcode真机无法联调的野路子](content/168/content.md)
+  * [20. Assets的几个方便用法](content/81/content.md)
 * UI
   * [1. 为 UIView “截屏”](content/9/content.md)
   * [2. 如何使 UIImagePickerController 支持横屏](content/16/content.md)
