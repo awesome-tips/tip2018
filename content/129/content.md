@@ -31,7 +31,7 @@ bugreport unwind --outfile /Users/kangzubin/Desktop/buglog.txt
 bugreport unwind --outfile <path to output file> --append-outfile
 ```
 
-#### 参考
+#### 参考链接
 
 [Debugging Swift code with LLDB](https://medium.com/flawless-app-stories/debugging-swift-code-with-lldb-b30c5cf2fd49)
 
