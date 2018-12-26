@@ -1,16 +1,14 @@
 ## Pod 关于 unknown UUID 警告的解决方式
 
-**作者**: [Vong_HUST](https://weibo.com/VongLo)
+**作者**: [Vong\_HUST](https://weibo.com/VongLo)
 
 最近某次在 `pod install` 之后会发现终端会输出类似下面的提示：
 
-```
-[!] `<PBXBuildFile UUID=`xxxxxxx`>` attempted to initialize an object with an unknown UUID. `xxxxxxxx` for attribute: `file_ref`. This can be the result of a merge and  the unknown UUID is being discarded. 
-```
- 
+    [!] `<PBXBuildFile UUID=`xxxxxxx`>` attempted to initialize an object with an unknown UUID. `xxxxxxxx` for attribute: `file_ref`. This can be the result of a merge and  the unknown UUID is being discarded.
+
 一直很困惑。后面 Google 在 `CocoaPods repo` 下看到一个类似的 `issue`，原因是由于修改了 `pbxproj` 文件，但是没有把它提交到 `git` 当中，当其他人更新 `pod` 的时候就会提示这个。
 
-解决方案就是使用下面这段命令 
+解决方案就是使用下面这段命令
 
 ```
 cat ProjectName.xcodeproj/project.pbxproj | grep SECOND_UDID_F34A6B992B28CA
@@ -22,7 +20,7 @@ cat ProjectName.xcodeproj/project.pbxproj | grep SECOND_UDID_F34A6B992B28CA
 
 ![](./1.jpg)
 
-#### 参考
+#### 参考链接
 
 [Pod install result in initialize an object with an unknown UUID](https://github.com/CocoaPods/CocoaPods/issues/1822)
 
