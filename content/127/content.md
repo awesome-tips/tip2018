@@ -1,6 +1,6 @@
 ## CoreData 检索遇到的坑及其解决方式
 
-**作者**: [Vong_HUST](https://weibo.com/VongLo)
+**作者**: [Vong\_HUST](https://weibo.com/VongLo)
 
 项目中有用到 `CoreData` 的同学应该对 [`MagicalRecord`](https://github.com/magicalpanda/MagicalRecord/) 这个库或多或少有一点了解，我们项目中也用到这个库的搜索功能即 `NSManagedObject (MagicalFinders)` 这个分类。
 
@@ -13,13 +13,15 @@
     [request setFetchBatchSize:[self defaultBatchSize]];
     NSSortDescriptor *sortBy = [[NSSortDescriptor alloc] initWithKey:orderItem ascending:ascending];
     [request setSortDescriptors:[NSArray arrayWithObject:sortBy]];
-    
+
     return [self executeFetchRequest:request inContext:context];
 }
 ```
 
-#### 参考
+#### 参考链接
 
-* [mr_fetchAllSorted fetches not only the parent entity but also the child entity[(http://t.cn/RmQD2Rj)
+* [mr\_fetchAllSorted fetches not only the parent entity but also the child entity](http://t.cn/RmQD2Rj)
 * [NSPredicate that filters out subclass results](http://t.cn/RmQDqYa)
+
+
 
