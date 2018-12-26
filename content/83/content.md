@@ -6,23 +6,22 @@
 
 ```objc
 func downsample(imageAt imageURL: URL, to pointSize: CGSize, scale: CGFloat) -> UIImage {
-	let sourceOpt = [kCGImageSourceShouldCache : false] as CFDictionary
-	// 其他场景可以用createwithdata (data并未decode,所占内存没那么大),
-	let source = CGImageSourceCreateWithURL(imageURL as CFURL, sourceOpt)!
+    let sourceOpt = [kCGImageSourceShouldCache : false] as CFDictionary
+    // 其他场景可以用createwithdata (data并未decode,所占内存没那么大),
+    let source = CGImageSourceCreateWithURL(imageURL as CFURL, sourceOpt)!
 
-	let maxDimension = max(pointSize.width, pointSize.height) * scale
-	let downsampleOpt = [kCGImageSourceCreateThumbnailFromImageAlways : true,
+    let maxDimension = max(pointSize.width, pointSize.height) * scale
+    let downsampleOpt = [kCGImageSourceCreateThumbnailFromImageAlways : true,
 kCGImageSourceShouldCacheImmediately : true ,
 kCGImageSourceCreateThumbnailWithTransform : true,
 kCGImageSourceThumbnailMaxPixelSize : maxDimension] as CFDictionary
-	let downsampleImage = CGImageSourceCreateThumbnailAtIndex(source, 0, downsampleOpt)!
+    let downsampleImage = CGImageSourceCreateThumbnailAtIndex(source, 0, downsampleOpt)!
 
-	return UIImage(cgImage: downsampleImage)
+    return UIImage(cgImage: downsampleImage)
 }
 ```
 
-#### 参考资料
+#### 参考链接
 
 [iOS中的图片使用方式、内存对比和最佳实践](https://juejin.im/post/5b2ddfa7e51d4553156be305)
-
 
