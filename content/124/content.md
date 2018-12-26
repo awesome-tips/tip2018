@@ -23,7 +23,7 @@ NSMutableDictionary *dict5 = @{}.mutableCopy;
 
 我们知道在 `Objective-C` 中主要有三大容器，分别是数组、字典、集合，它们各自都对应有可变对象和不可变对象，如：`NSArray`/`NSMutableArray`, `NSDictionary`/`NSMutableDictionary`, `NSSet`/`NSMutableSet`, 我们这里不再赘述它们的区别和使用方式，下面主要以 `NSMutableDictionary` 为例介绍以上几种初始化写法的不同。
 
-* 第 1 种就是我们常见初始化一个 `NSObject` 对象的写法，其中 `alloc` 为 `NSObject` 的类方法，它用于创建（分配内存）并返回指定类一个的新对象，而 `init` 为 `NSObject` 的实例方法，一般由子类重新实现，用于初始化一个刚创建 (`allocated`) 的对象。
+* 第 1 种就是我们常见初始化一个 `NSObject` 对象的写法，其中 `alloc` 为 `NSObject` 的类方法，它用于创建（分配内存）并返回指定类一个的新对象，而 `init` 为 `NSObject` 的实例方法，一般由子类重新实现，用于初始化一个刚创建 \(`allocated`\) 的对象。
 
 * 第 2 种写法，对于 `NSObject` 的 `new` 方法，[苹果文档](https://developer.apple.com/documentation/objectivec/nsobject/1571948-new) 是这么说的：`Allocates a new instance of the receiving class, sends it an init message, and returns the initialized object.` 因此，它就是 `alloc` 和 `init` 方法的组合，与第 1 种写法是等价的。
 
@@ -37,8 +37,10 @@ NSMutableDictionary *dict5 = @{}.mutableCopy;
 
 以上是对可变字典空对象的几种不同初始化写法的简单对比，你习惯用哪一种呢？欢迎留言讨论...
 
-参考
+#### 参考链接
 
-1. To create an empty dictionary, [NSMutableDictionary dictionary] or [[NSMutableDictionary alloc] init]? `https://stackoverflow.com/questions/4152322/to-create-an-empty-dictionary-nsmutabledictionary-dictionary-or-nsmutabledi`
-2. What is the difference between [Class new] and [[Class alloc] init] in iOS?    `https://stackoverflow.com/questions/11256228/what-is-the-difference-between-class-new-and-class-alloc-init-in-ios/11256290`
+* [To create an empty dictionary, \[NSMutableDictionary dictionary\] or \[\[NSMutableDictionary alloc\] init\]? ](https://stackoverflow.com/questions/4152322/to-create-an-empty-dictionary-nsmutabledictionary-dictionary-or-nsmutabledi)
+* [What is the difference between \[Class new\] and \[\[Class alloc\] init\] in iOS?    ](https://stackoverflow.com/questions/11256228/what-is-the-difference-between-class-new-and-class-alloc-init-in-ios/11256290)
+
+
 
