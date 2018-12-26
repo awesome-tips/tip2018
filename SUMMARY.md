@@ -183,7 +183,4 @@
   * [23. iOS 9 以后通知不再需要手动移除](content/139/content.md)
   * [24. 使用 Apple Configuration 配置自动加入 Wi-Fi](content/148/content.md)
   * [25. iOS9 以后 openURL 和 canOpenURL 使用限制的小误区](content/150/content.md)
-* 未添加
-  * 22
-  * 30 
 
