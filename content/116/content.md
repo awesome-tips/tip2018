@@ -1,6 +1,6 @@
 ## Quick Look Debugging
 
-**作者**: [Lefe_x](https://weibo.com/u/5953150140)
+**作者**: [Lefe\_x](https://weibo.com/u/5953150140)
 
 ![](./1.png)
 
@@ -14,15 +14,14 @@
 
 系统默认支持下面这几种类型：
 
-- 图片： UIImage，UIImageView，和 NSBitmapImageRep 都可以快速查看。
-- 颜色： UIColor
-- 字符串： NSString 和 NSAttributedString。
-- 几何： UIBezierPath 和 NSBezierPath，以及 CGPoint，CGRect，和 CGSize。
-- 地区 CLLocation 将显示一个很大的，互动的映射位置，并显示高度和精度的细节。
-- URLs： NSURL 将显示 URL 所指的本地或远程的内容。
-- 数据： NSData 将漂亮的显示出偏移的十六进制和 ASCII 值。
-- 视图： 最后但并非最不重要的，任何 UIView 子类都将在快速查看弹出框中显示其内容，方便极了。
-
+* 图片： UIImage，UIImageView，和 NSBitmapImageRep 都可以快速查看。
+* 颜色： UIColor
+* 字符串： NSString 和 NSAttributedString。
+* 几何： UIBezierPath 和 NSBezierPath，以及 CGPoint，CGRect，和 CGSize。
+* 地区 CLLocation 将显示一个很大的，互动的映射位置，并显示高度和精度的细节。
+* URLs： NSURL 将显示 URL 所指的本地或远程的内容。
+* 数据： NSData 将漂亮的显示出偏移的十六进制和 ASCII 值。
+* 视图： 最后但并非最不重要的，任何 UIView 子类都将在快速查看弹出框中显示其内容，方便极了。
 
 如果想让自定义的类也支持这种快速调试可以重写方法
 
@@ -34,8 +33,7 @@
 }
 ```
 
-#### 参考
+#### 参考链接
 
 [Quick Look Debugging](http://nshipster.cn/quick-look-debugging/)
-
 
