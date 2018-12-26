@@ -1,6 +1,6 @@
 ## 换一种 Hook 的姿势
 
-**作者**: [Lefe_x](https://weibo.com/u/5953150140)
+**作者**: [Lefe\_x](https://weibo.com/u/5953150140)
 
 开发过程中，有时为了满足需求，通常会 `Hook` 系统或第三方库的一些方法。每次写一长串模版代码，是不是很痛苦？
 
@@ -32,7 +32,7 @@ CHConstructor{
 }
 ```
 
-#### 参考
+#### 参考链接
 
 [CaptainHook](https://github.com/rpetrich/CaptainHook/wiki)
 
