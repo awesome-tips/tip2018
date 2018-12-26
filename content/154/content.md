@@ -1,6 +1,6 @@
 ## 应用 icon 被 Cocoapods “吃掉”的解决方式
 
-**作者**: [Vong_HUST](https://weibo.com/VongLo)
+**作者**: [Vong\_HUST](https://weibo.com/VongLo)
 
 最近在做模块化相关的事情，和 `Cocoapods` 频繁接触，也踩了一些坑，今天主要分享一下最近遇到的一个 `bug`。
 
@@ -20,9 +20,10 @@
 
 还有一种解决方案就是把图片全部放到 `bundle`，不放在 `.xcassets` 的形式，也是亲测可行。但是这种方式不太优雅，因为可能导致图片重名，读取错误。
 
-#### 参考
+#### 参考链接
 
 1. [issue 解决方案](https://github.com/CocoaPods/CocoaPods/issues/7003#issuecomment-328045681)
-2. [resource_bundles or resources](http://zhoulingyu.com/2018/02/02/pod-resource-reference/)
+2. [resource\_bundles or resources](http://zhoulingyu.com/2018/02/02/pod-resource-reference/)
+
 
 
